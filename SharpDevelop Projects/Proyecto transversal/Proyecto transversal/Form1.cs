@@ -28,5 +28,12 @@ namespace Proyecto_transversal
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void BtnsiguienteClick(object sender, EventArgs e)
+		{
+			this.Hide();
+			Form2 from2 = new Form2();
+			from2.Show();
+		}
 	}
 }
