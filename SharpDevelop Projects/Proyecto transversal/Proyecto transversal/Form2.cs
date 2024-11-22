@@ -77,8 +77,6 @@ namespace Proyecto_transversal
 			torta++;
             lbltorta.Text = torta.ToString();
 		}
-		
-		
 		void BtnlimpiarClick(object sender, EventArgs e)
 		{
 			txtancho.Clear();
