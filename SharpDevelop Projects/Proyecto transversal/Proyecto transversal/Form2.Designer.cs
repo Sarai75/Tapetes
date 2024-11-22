@@ -124,16 +124,16 @@ namespace Proyecto_transversal
 			// label9
 			// 
 			this.label9.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label9.Location = new System.Drawing.Point(478, 225);
+			this.label9.Location = new System.Drawing.Point(454, 225);
 			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(62, 23);
+			this.label9.Size = new System.Drawing.Size(96, 23);
 			this.label9.TabIndex = 15;
 			this.label9.Text = "0";
 			// 
 			// label10
 			// 
 			this.label10.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label10.Location = new System.Drawing.Point(340, 207);
+			this.label10.Location = new System.Drawing.Point(316, 207);
 			this.label10.Name = "label10";
 			this.label10.Size = new System.Drawing.Size(62, 23);
 			this.label10.TabIndex = 14;
@@ -142,7 +142,7 @@ namespace Proyecto_transversal
 			// label11
 			// 
 			this.label11.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label11.Location = new System.Drawing.Point(464, 270);
+			this.label11.Location = new System.Drawing.Point(454, 268);
 			this.label11.Name = "label11";
 			this.label11.Size = new System.Drawing.Size(62, 23);
 			this.label11.TabIndex = 13;
@@ -151,7 +151,7 @@ namespace Proyecto_transversal
 			// label12
 			// 
 			this.label12.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label12.Location = new System.Drawing.Point(340, 150);
+			this.label12.Location = new System.Drawing.Point(316, 150);
 			this.label12.Name = "label12";
 			this.label12.Size = new System.Drawing.Size(163, 33);
 			this.label12.TabIndex = 12;
@@ -160,7 +160,7 @@ namespace Proyecto_transversal
 			// lbltrabajadores
 			// 
 			this.lbltrabajadores.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lbltrabajadores.Location = new System.Drawing.Point(408, 41);
+			this.lbltrabajadores.Location = new System.Drawing.Point(384, 41);
 			this.lbltrabajadores.Name = "lbltrabajadores";
 			this.lbltrabajadores.Size = new System.Drawing.Size(62, 23);
 			this.lbltrabajadores.TabIndex = 11;
@@ -169,7 +169,7 @@ namespace Proyecto_transversal
 			// label14
 			// 
 			this.label14.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label14.Location = new System.Drawing.Point(340, 9);
+			this.label14.Location = new System.Drawing.Point(316, 9);
 			this.label14.Name = "label14";
 			this.label14.Size = new System.Drawing.Size(163, 23);
 			this.label14.TabIndex = 10;
@@ -196,7 +196,7 @@ namespace Proyecto_transversal
 			// label17
 			// 
 			this.label17.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label17.Location = new System.Drawing.Point(408, 207);
+			this.label17.Location = new System.Drawing.Point(384, 207);
 			this.label17.Name = "label17";
 			this.label17.Size = new System.Drawing.Size(62, 23);
 			this.label17.TabIndex = 16;
@@ -205,7 +205,7 @@ namespace Proyecto_transversal
 			// label18
 			// 
 			this.label18.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label18.Location = new System.Drawing.Point(340, 270);
+			this.label18.Location = new System.Drawing.Point(316, 270);
 			this.label18.Name = "label18";
 			this.label18.Size = new System.Drawing.Size(118, 23);
 			this.label18.TabIndex = 17;
@@ -215,7 +215,7 @@ namespace Proyecto_transversal
 			// 
 			this.btncalcular.BackColor = System.Drawing.Color.Silver;
 			this.btncalcular.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btncalcular.Location = new System.Drawing.Point(426, 313);
+			this.btncalcular.Location = new System.Drawing.Point(438, 313);
 			this.btncalcular.Name = "btncalcular";
 			this.btncalcular.Size = new System.Drawing.Size(112, 28);
 			this.btncalcular.TabIndex = 18;
@@ -266,7 +266,7 @@ namespace Proyecto_transversal
 			// 
 			// button5
 			// 
-			this.button5.Location = new System.Drawing.Point(350, 30);
+			this.button5.Location = new System.Drawing.Point(326, 30);
 			this.button5.Name = "button5";
 			this.button5.Size = new System.Drawing.Size(35, 34);
 			this.button5.TabIndex = 24;
@@ -276,7 +276,7 @@ namespace Proyecto_transversal
 			// 
 			// button6
 			// 
-			this.button6.Location = new System.Drawing.Point(350, 102);
+			this.button6.Location = new System.Drawing.Point(326, 102);
 			this.button6.Name = "button6";
 			this.button6.Size = new System.Drawing.Size(35, 34);
 			this.button6.TabIndex = 25;
@@ -286,14 +286,14 @@ namespace Proyecto_transversal
 			// 
 			// txtlargo
 			// 
-			this.txtlargo.Location = new System.Drawing.Point(350, 228);
+			this.txtlargo.Location = new System.Drawing.Point(326, 228);
 			this.txtlargo.Name = "txtlargo";
 			this.txtlargo.Size = new System.Drawing.Size(43, 20);
 			this.txtlargo.TabIndex = 26;
 			// 
 			// txtancho
 			// 
-			this.txtancho.Location = new System.Drawing.Point(415, 228);
+			this.txtancho.Location = new System.Drawing.Point(391, 228);
 			this.txtancho.Name = "txtancho";
 			this.txtancho.Size = new System.Drawing.Size(43, 20);
 			this.txtancho.TabIndex = 27;
@@ -311,7 +311,7 @@ namespace Proyecto_transversal
 			// lbltorta
 			// 
 			this.lbltorta.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lbltorta.Location = new System.Drawing.Point(408, 111);
+			this.lbltorta.Location = new System.Drawing.Point(384, 111);
 			this.lbltorta.Name = "lbltorta";
 			this.lbltorta.Size = new System.Drawing.Size(62, 23);
 			this.lbltorta.TabIndex = 29;
@@ -320,7 +320,7 @@ namespace Proyecto_transversal
 			// label2
 			// 
 			this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(340, 79);
+			this.label2.Location = new System.Drawing.Point(316, 79);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(163, 23);
 			this.label2.TabIndex = 28;
@@ -343,7 +343,7 @@ namespace Proyecto_transversal
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-			this.ClientSize = new System.Drawing.Size(552, 353);
+			this.ClientSize = new System.Drawing.Size(557, 353);
 			this.Controls.Add(this.btnlimpiar);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.lbltorta);
