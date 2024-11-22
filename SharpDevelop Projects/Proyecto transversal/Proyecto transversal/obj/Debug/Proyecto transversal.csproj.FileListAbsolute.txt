@@ -7,3 +7,12 @@ C:\Users\CC2_PC30\PAEC\SharpDevelop Projects\Proyecto transversal\Proyecto trans
 C:\Users\CC2_PC30\PAEC\SharpDevelop Projects\Proyecto transversal\Proyecto transversal\obj\Debug\Proyecto transversal.pdb
 C:\Users\CC2_PC30\PAEC\SharpDevelop Projects\Proyecto transversal\Proyecto transversal\obj\Debug\Proyecto_transversal.Form1.resources
 C:\Users\CC2_PC30\PAEC\SharpDevelop Projects\Proyecto transversal\Proyecto transversal\obj\Debug\Proyecto_transversal.Form2.resources
+C:\Users\J Sarai\Tapetes\SharpDevelop Projects\Proyecto transversal\Proyecto transversal\bin\Debug\Proyecto transversal.exe
+C:\Users\J Sarai\Tapetes\SharpDevelop Projects\Proyecto transversal\Proyecto transversal\bin\Debug\Proyecto transversal.pdb
+C:\Users\J Sarai\Tapetes\SharpDevelop Projects\Proyecto transversal\Proyecto transversal\obj\Debug\Proyecto transversal.csprojResolveAssemblyReference.cache
+C:\Users\J Sarai\Tapetes\SharpDevelop Projects\Proyecto transversal\Proyecto transversal\obj\Debug\Proyecto_transversal.Form1.resources
+C:\Users\J Sarai\Tapetes\SharpDevelop Projects\Proyecto transversal\Proyecto transversal\obj\Debug\Proyecto_transversal.Form2.resources
+C:\Users\J Sarai\Tapetes\SharpDevelop Projects\Proyecto transversal\Proyecto transversal\obj\Debug\Proyecto_transversal.MainForm.resources
+C:\Users\J Sarai\Tapetes\SharpDevelop Projects\Proyecto transversal\Proyecto transversal\obj\Debug\Proyecto transversal.csproj.GenerateResource.Cache
+C:\Users\J Sarai\Tapetes\SharpDevelop Projects\Proyecto transversal\Proyecto transversal\obj\Debug\Proyecto transversal.exe
+C:\Users\J Sarai\Tapetes\SharpDevelop Projects\Proyecto transversal\Proyecto transversal\obj\Debug\Proyecto transversal.pdb
