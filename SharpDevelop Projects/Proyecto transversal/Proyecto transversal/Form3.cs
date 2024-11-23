@@ -49,6 +49,14 @@ namespace Proyecto_transversal
 			//
 		}
 		
+		
+		void BtnvolverClick(object sender, EventArgs e)
+		{
+			this.Hide();
+			MainForm mainform = new MainForm();
+			mainform.Show();
+		}
+		
 		void BtncalcularClick(object sender, EventArgs e)
 		{
 			
@@ -76,13 +84,6 @@ namespace Proyecto_transversal
 			
 			int resuu=botella+pinturaa+frutos+metrossaserrin+resulaserrin+floress+tortaa+resutrabajador;
 			lblresul.Text=resuu.ToString();
-		}
-		
-		void BtnvolverClick(object sender, EventArgs e)
-		{
-			this.Hide();
-			MainForm mainform = new MainForm();
-			mainform.Show();
 		}
 	}
 }
