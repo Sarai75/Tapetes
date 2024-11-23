@@ -106,10 +106,9 @@ namespace Proyecto_transversal
 			string llargo=txtlargo.Text;
 			largo=int.Parse(llargo);	
 			metrosc=ancho*largo;
+			metrostrabajadores=largo*ancho*20;
 			metroaserrin=metrosc*20;
-			resultadoaserrin=metroaserrin*15;
-			metrostrabajadores=metrosc*20;
-			resultrabajadores=metrostrabajadores*20;
+			resultadoaserrin=metroaserrin*20;
 			resultrabajadores=int.Parse(lbltrabajadores.Text);
 			resultrabajadores=resultrabajadores*metrostrabajadores;
 			
