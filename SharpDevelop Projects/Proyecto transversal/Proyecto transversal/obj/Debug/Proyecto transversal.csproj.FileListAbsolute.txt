@@ -16,3 +16,4 @@ C:\Users\J Sarai\Tapetes\SharpDevelop Projects\Proyecto transversal\Proyecto tra
 C:\Users\J Sarai\Tapetes\SharpDevelop Projects\Proyecto transversal\Proyecto transversal\obj\Debug\Proyecto transversal.csproj.GenerateResource.Cache
 C:\Users\J Sarai\Tapetes\SharpDevelop Projects\Proyecto transversal\Proyecto transversal\obj\Debug\Proyecto transversal.exe
 C:\Users\J Sarai\Tapetes\SharpDevelop Projects\Proyecto transversal\Proyecto transversal\obj\Debug\Proyecto transversal.pdb
+C:\Users\J Sarai\Tapetes\SharpDevelop Projects\Proyecto transversal\Proyecto transversal\obj\Debug\Proyecto_transversal.Form3.resources

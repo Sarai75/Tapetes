@@ -17,6 +17,19 @@ namespace Proyecto_transversal
 	/// </summary>
 	public partial class Form2 : Form
 	{
+		public int agua;
+		public int pintura;
+		public int frutossecos;
+		public int metrosc;
+		public int largo;
+		public int ancho;
+		public int aserrin;
+		public int metroaserrin;
+		public int rtrabajadores;
+		public int resultadoaserrin;
+		public int flores;
+		public int torta;
+		
 		public Form2()
 		{
 			//
@@ -38,28 +51,28 @@ namespace Proyecto_transversal
 		
 		void Button1Click(object sender, EventArgs e)
 		{
-			int agua = int.Parse(lblagua.Text);
+			agua = int.Parse(lblagua.Text);
             agua++;
             lblagua.Text = agua.ToString();
 		}
 		
 		void Button2Click(object sender, EventArgs e)
 		{
-			int pintura = int.Parse(lblpintura.Text);
+			pintura = int.Parse(lblpintura.Text);
             pintura++;
             lblpintura.Text = pintura.ToString();
 		}
 		
 		void Button3Click(object sender, EventArgs e)
 		{
-			int frutossecos = int.Parse(lblfrutos.Text);
+			frutossecos = int.Parse(lblfrutos.Text);
             frutossecos++;
             lblfrutos.Text = frutossecos.ToString();
 		}
 		
 		void Button4Click(object sender, EventArgs e)
 		{
-			int flores = int.Parse(lblflores.Text);
+			flores = int.Parse(lblflores.Text);
 			flores++;
             lblflores.Text = flores.ToString();
 		}
@@ -73,16 +86,33 @@ namespace Proyecto_transversal
 		
 		void Button6Click(object sender, EventArgs e)
 		{
-			int torta = int.Parse(lbltorta.Text);
+			torta = int.Parse(lbltorta.Text);
 			torta++;
             lbltorta.Text = torta.ToString();
 		}
-		
-		
 		void BtnlimpiarClick(object sender, EventArgs e)
 		{
 			txtancho.Clear();
 			txtlargo.Clear();
+		}
+		
+		void BtncalcularClick(object sender, EventArgs e)
+		{
+			string aancho=txtancho.Text;
+			ancho=int.Parse(aancho);
+			string llargo=txtlargo.Text;
+			largo=int.Parse(llargo);	
+			metrosc=ancho*largo;
+			metroaserrin=metrosc*20;
+			resultadoaserrin=metrosc*15;
+			
+			/* rtrabajadores=int.Parse(lbltrabajadores.Text);
+			rtrabajadores=rtrabajadores*metroaserrin;*/
+			
+			Form3 huhu =new Form3(agua, pintura, frutossecos, metrosc, metroaserrin,resultadoaserrin, flores, torta);
+			this.Hide();
+			huhu.ShowDialog();
+			this.Close();
 		}
 	}
 }

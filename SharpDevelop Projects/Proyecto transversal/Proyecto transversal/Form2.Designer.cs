@@ -42,17 +42,14 @@ namespace Proyecto_transversal
 			this.label6 = new System.Windows.Forms.Label();
 			this.lblflores = new System.Windows.Forms.Label();
 			this.label8 = new System.Windows.Forms.Label();
-			this.label9 = new System.Windows.Forms.Label();
 			this.label10 = new System.Windows.Forms.Label();
-			this.label11 = new System.Windows.Forms.Label();
 			this.label12 = new System.Windows.Forms.Label();
 			this.lbltrabajadores = new System.Windows.Forms.Label();
 			this.label14 = new System.Windows.Forms.Label();
 			this.lblagua = new System.Windows.Forms.Label();
 			this.label16 = new System.Windows.Forms.Label();
 			this.label17 = new System.Windows.Forms.Label();
-			this.label18 = new System.Windows.Forms.Label();
-			this.btncalcular = new System.Windows.Forms.Button();
+			this.btnsig = new System.Windows.Forms.Button();
 			this.btnvolver = new System.Windows.Forms.Button();
 			this.button2 = new System.Windows.Forms.Button();
 			this.button3 = new System.Windows.Forms.Button();
@@ -121,37 +118,19 @@ namespace Proyecto_transversal
 			this.label8.TabIndex = 6;
 			this.label8.Text = "docena de flores";
 			// 
-			// label9
-			// 
-			this.label9.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label9.Location = new System.Drawing.Point(478, 225);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(62, 23);
-			this.label9.TabIndex = 15;
-			this.label9.Text = "0";
-			// 
 			// label10
 			// 
 			this.label10.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label10.Location = new System.Drawing.Point(340, 207);
+			this.label10.Location = new System.Drawing.Point(316, 207);
 			this.label10.Name = "label10";
 			this.label10.Size = new System.Drawing.Size(62, 23);
 			this.label10.TabIndex = 14;
 			this.label10.Text = "largo";
 			// 
-			// label11
-			// 
-			this.label11.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label11.Location = new System.Drawing.Point(464, 270);
-			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(62, 23);
-			this.label11.TabIndex = 13;
-			this.label11.Text = "0";
-			// 
 			// label12
 			// 
 			this.label12.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label12.Location = new System.Drawing.Point(340, 150);
+			this.label12.Location = new System.Drawing.Point(316, 150);
 			this.label12.Name = "label12";
 			this.label12.Size = new System.Drawing.Size(163, 33);
 			this.label12.TabIndex = 12;
@@ -160,7 +139,7 @@ namespace Proyecto_transversal
 			// lbltrabajadores
 			// 
 			this.lbltrabajadores.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lbltrabajadores.Location = new System.Drawing.Point(408, 41);
+			this.lbltrabajadores.Location = new System.Drawing.Point(384, 41);
 			this.lbltrabajadores.Name = "lbltrabajadores";
 			this.lbltrabajadores.Size = new System.Drawing.Size(62, 23);
 			this.lbltrabajadores.TabIndex = 11;
@@ -169,7 +148,7 @@ namespace Proyecto_transversal
 			// label14
 			// 
 			this.label14.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label14.Location = new System.Drawing.Point(340, 9);
+			this.label14.Location = new System.Drawing.Point(316, 9);
 			this.label14.Name = "label14";
 			this.label14.Size = new System.Drawing.Size(163, 23);
 			this.label14.TabIndex = 10;
@@ -196,31 +175,23 @@ namespace Proyecto_transversal
 			// label17
 			// 
 			this.label17.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label17.Location = new System.Drawing.Point(408, 207);
+			this.label17.Location = new System.Drawing.Point(384, 207);
 			this.label17.Name = "label17";
 			this.label17.Size = new System.Drawing.Size(62, 23);
 			this.label17.TabIndex = 16;
 			this.label17.Text = "ancho";
 			// 
-			// label18
+			// btnsig
 			// 
-			this.label18.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label18.Location = new System.Drawing.Point(340, 270);
-			this.label18.Name = "label18";
-			this.label18.Size = new System.Drawing.Size(118, 23);
-			this.label18.TabIndex = 17;
-			this.label18.Text = "precio total";
-			// 
-			// btncalcular
-			// 
-			this.btncalcular.BackColor = System.Drawing.Color.Silver;
-			this.btncalcular.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btncalcular.Location = new System.Drawing.Point(426, 313);
-			this.btncalcular.Name = "btncalcular";
-			this.btncalcular.Size = new System.Drawing.Size(112, 28);
-			this.btncalcular.TabIndex = 18;
-			this.btncalcular.Text = "calcular";
-			this.btncalcular.UseVisualStyleBackColor = false;
+			this.btnsig.BackColor = System.Drawing.Color.Silver;
+			this.btnsig.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnsig.Location = new System.Drawing.Point(438, 313);
+			this.btnsig.Name = "btnsig";
+			this.btnsig.Size = new System.Drawing.Size(112, 28);
+			this.btnsig.TabIndex = 18;
+			this.btnsig.Text = "siguiente";
+			this.btnsig.UseVisualStyleBackColor = false;
+			this.btnsig.Click += new System.EventHandler(this.BtncalcularClick);
 			// 
 			// btnvolver
 			// 
@@ -266,7 +237,7 @@ namespace Proyecto_transversal
 			// 
 			// button5
 			// 
-			this.button5.Location = new System.Drawing.Point(350, 30);
+			this.button5.Location = new System.Drawing.Point(326, 30);
 			this.button5.Name = "button5";
 			this.button5.Size = new System.Drawing.Size(35, 34);
 			this.button5.TabIndex = 24;
@@ -276,7 +247,7 @@ namespace Proyecto_transversal
 			// 
 			// button6
 			// 
-			this.button6.Location = new System.Drawing.Point(350, 102);
+			this.button6.Location = new System.Drawing.Point(326, 102);
 			this.button6.Name = "button6";
 			this.button6.Size = new System.Drawing.Size(35, 34);
 			this.button6.TabIndex = 25;
@@ -286,14 +257,14 @@ namespace Proyecto_transversal
 			// 
 			// txtlargo
 			// 
-			this.txtlargo.Location = new System.Drawing.Point(350, 228);
+			this.txtlargo.Location = new System.Drawing.Point(326, 228);
 			this.txtlargo.Name = "txtlargo";
 			this.txtlargo.Size = new System.Drawing.Size(43, 20);
 			this.txtlargo.TabIndex = 26;
 			// 
 			// txtancho
 			// 
-			this.txtancho.Location = new System.Drawing.Point(415, 228);
+			this.txtancho.Location = new System.Drawing.Point(391, 228);
 			this.txtancho.Name = "txtancho";
 			this.txtancho.Size = new System.Drawing.Size(43, 20);
 			this.txtancho.TabIndex = 27;
@@ -311,7 +282,7 @@ namespace Proyecto_transversal
 			// lbltorta
 			// 
 			this.lbltorta.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lbltorta.Location = new System.Drawing.Point(408, 111);
+			this.lbltorta.Location = new System.Drawing.Point(384, 111);
 			this.lbltorta.Name = "lbltorta";
 			this.lbltorta.Size = new System.Drawing.Size(62, 23);
 			this.lbltorta.TabIndex = 29;
@@ -320,7 +291,7 @@ namespace Proyecto_transversal
 			// label2
 			// 
 			this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(340, 79);
+			this.label2.Location = new System.Drawing.Point(316, 79);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(163, 23);
 			this.label2.TabIndex = 28;
@@ -343,7 +314,7 @@ namespace Proyecto_transversal
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-			this.ClientSize = new System.Drawing.Size(552, 353);
+			this.ClientSize = new System.Drawing.Size(557, 353);
 			this.Controls.Add(this.btnlimpiar);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.lbltorta);
@@ -356,12 +327,9 @@ namespace Proyecto_transversal
 			this.Controls.Add(this.button3);
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.btnvolver);
-			this.Controls.Add(this.btncalcular);
-			this.Controls.Add(this.label18);
+			this.Controls.Add(this.btnsig);
 			this.Controls.Add(this.label17);
-			this.Controls.Add(this.label9);
 			this.Controls.Add(this.label10);
-			this.Controls.Add(this.label11);
 			this.Controls.Add(this.label12);
 			this.Controls.Add(this.lbltrabajadores);
 			this.Controls.Add(this.label14);
@@ -389,17 +357,14 @@ namespace Proyecto_transversal
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Button btnvolver;
-		private System.Windows.Forms.Button btncalcular;
-		private System.Windows.Forms.Label label18;
+		private System.Windows.Forms.Button btnsig;
 		private System.Windows.Forms.Label label17;
 		private System.Windows.Forms.Label label16;
 		private System.Windows.Forms.Label lblagua;
 		private System.Windows.Forms.Label label14;
 		private System.Windows.Forms.Label lbltrabajadores;
 		private System.Windows.Forms.Label label12;
-		private System.Windows.Forms.Label label11;
 		private System.Windows.Forms.Label label10;
-		private System.Windows.Forms.Label label9;
 		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.Label lblflores;
 		private System.Windows.Forms.Label label6;

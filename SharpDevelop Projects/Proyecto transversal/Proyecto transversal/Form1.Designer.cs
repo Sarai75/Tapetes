@@ -66,12 +66,13 @@ namespace Proyecto_transversal
 			// label2
 			// 
 			this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(224, 104);
+			this.label2.Location = new System.Drawing.Point(224, 88);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(301, 140);
+			this.label2.Size = new System.Drawing.Size(301, 172);
 			this.label2.TabIndex = 4;
-			this.label2.Text = "BULTO DE ASERRIN: $100.\r\nLITRO DE PINTURA: $100.\r\nKG FRUTOS SECOS: $80.\r\nDOCENA D" +
-			"E FLORES: $50.\r\nLITRO DE AGUA: $25.\r\nTORTAS: $30.\r\nMETRO DE TAPETE: $20.";
+			this.label2.Text = "POR CADA METRO CUADRADO 20 KILOS DE ASERRIN: $15.\r\nLITRO DE PINTURA: $100.\r\nKG FR" +
+			"UTOS SECOS: $80.\r\nDOCENA DE FLORES: $50.\r\nLITRO DE AGUA: $25.\r\nTORTAS: $30.\r\nMET" +
+			"RO DE TAPETE: $20.";
 			// 
 			// btnsiguiente
 			// 
