@@ -85,7 +85,7 @@ namespace Proyecto_transversal
 			this.btnvolver.Name = "btnvolver";
 			this.btnvolver.Size = new System.Drawing.Size(188, 28);
 			this.btnvolver.TabIndex = 49;
-			this.btnvolver.Text = "volver a precios";
+			this.btnvolver.Text = "volver aL INICIO";
 			this.btnvolver.UseVisualStyleBackColor = false;
 			this.btnvolver.Click += new System.EventHandler(this.BtnvolverClick);
 			// 
