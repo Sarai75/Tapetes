@@ -28,7 +28,7 @@ namespace Proyecto_transversal
 		int resutrabajador;
 		int metrotra;
 		
-		public Form3(int botellaagua, int pinturas, int frutoos, int metroos,  int metroosassa, int resullase, int flooree, int toortaa, int restrabajador, int metrostraa)
+		public Form3(int botellaagua, int pinturas, int frutoos, int metroos,  int metroosassa, int resullase, int flooree, int toortaa, int restrabaja, int metrostraa)
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -42,7 +42,7 @@ namespace Proyecto_transversal
 			resulaserrin=resullase;
 			floress=flooree;
 			tortaa=toortaa;
-			resutrabajador=restrabajador;
+			resutrabajador=restrabaja;
 			metrotra=metrostraa;
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
@@ -71,6 +71,16 @@ namespace Proyecto_transversal
 			lbltorta.Text=tortaa.ToString();
 			
 			lbltrabajadores.Text=resutrabajador.ToString();
+			
+			int resuu=botella+pinturaa+frutos+metrossaserrin+resulaserrin+floress+tortaa;
+			lblresul.Text=resuu.ToString();
+		}
+		
+		void BtnvolverClick(object sender, EventArgs e)
+		{
+			this.Hide();
+			MainForm mainform = new MainForm();
+			mainform.Show();
 		}
 	}
 }

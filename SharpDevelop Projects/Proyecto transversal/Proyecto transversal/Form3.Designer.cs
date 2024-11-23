@@ -41,7 +41,7 @@ namespace Proyecto_transversal
 			this.btnvolver = new System.Windows.Forms.Button();
 			this.btncalcular = new System.Windows.Forms.Button();
 			this.label18 = new System.Windows.Forms.Label();
-			this.label11 = new System.Windows.Forms.Label();
+			this.lblresul = new System.Windows.Forms.Label();
 			this.label12 = new System.Windows.Forms.Label();
 			this.lbltrabajadores = new System.Windows.Forms.Label();
 			this.label14 = new System.Windows.Forms.Label();
@@ -87,6 +87,7 @@ namespace Proyecto_transversal
 			this.btnvolver.TabIndex = 49;
 			this.btnvolver.Text = "volver a precios";
 			this.btnvolver.UseVisualStyleBackColor = false;
+			this.btnvolver.Click += new System.EventHandler(this.BtnvolverClick);
 			// 
 			// btncalcular
 			// 
@@ -109,14 +110,14 @@ namespace Proyecto_transversal
 			this.label18.TabIndex = 47;
 			this.label18.Text = "precio total";
 			// 
-			// label11
+			// lblresul
 			// 
-			this.label11.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label11.Location = new System.Drawing.Point(426, 266);
-			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(62, 23);
-			this.label11.TabIndex = 43;
-			this.label11.Text = "0";
+			this.lblresul.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblresul.Location = new System.Drawing.Point(426, 266);
+			this.lblresul.Name = "lblresul";
+			this.lblresul.Size = new System.Drawing.Size(62, 23);
+			this.lblresul.TabIndex = 43;
+			this.lblresul.Text = "0";
 			// 
 			// label12
 			// 
@@ -268,7 +269,7 @@ namespace Proyecto_transversal
 			this.Controls.Add(this.btnvolver);
 			this.Controls.Add(this.btncalcular);
 			this.Controls.Add(this.label18);
-			this.Controls.Add(this.label11);
+			this.Controls.Add(this.lblresul);
 			this.Controls.Add(this.label12);
 			this.Controls.Add(this.lbltrabajadores);
 			this.Controls.Add(this.label14);
@@ -299,7 +300,7 @@ namespace Proyecto_transversal
 		private System.Windows.Forms.Label label14;
 		private System.Windows.Forms.Label lbltrabajadores;
 		private System.Windows.Forms.Label label12;
-		private System.Windows.Forms.Label label11;
+		private System.Windows.Forms.Label lblresul;
 		private System.Windows.Forms.Label label18;
 		private System.Windows.Forms.Button btncalcular;
 		private System.Windows.Forms.Button btnvolver;
