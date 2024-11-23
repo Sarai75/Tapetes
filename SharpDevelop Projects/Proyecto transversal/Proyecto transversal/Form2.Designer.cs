@@ -185,7 +185,7 @@ namespace Proyecto_transversal
 			// 
 			this.btnsig.BackColor = System.Drawing.Color.Silver;
 			this.btnsig.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnsig.Location = new System.Drawing.Point(438, 313);
+			this.btnsig.Location = new System.Drawing.Point(433, 313);
 			this.btnsig.Name = "btnsig";
 			this.btnsig.Size = new System.Drawing.Size(112, 28);
 			this.btnsig.TabIndex = 18;
@@ -197,11 +197,11 @@ namespace Proyecto_transversal
 			// 
 			this.btnvolver.BackColor = System.Drawing.Color.Silver;
 			this.btnvolver.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnvolver.Location = new System.Drawing.Point(24, 313);
+			this.btnvolver.Location = new System.Drawing.Point(12, 313);
 			this.btnvolver.Name = "btnvolver";
 			this.btnvolver.Size = new System.Drawing.Size(188, 28);
 			this.btnvolver.TabIndex = 19;
-			this.btnvolver.Text = "volver a precios";
+			this.btnvolver.Text = "volver al pincipio";
 			this.btnvolver.UseVisualStyleBackColor = false;
 			this.btnvolver.Click += new System.EventHandler(this.BtnvolverClick);
 			// 
@@ -301,7 +301,7 @@ namespace Proyecto_transversal
 			// 
 			this.btnlimpiar.BackColor = System.Drawing.Color.Silver;
 			this.btnlimpiar.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnlimpiar.Location = new System.Drawing.Point(259, 313);
+			this.btnlimpiar.Location = new System.Drawing.Point(249, 313);
 			this.btnlimpiar.Name = "btnlimpiar";
 			this.btnlimpiar.Size = new System.Drawing.Size(112, 28);
 			this.btnlimpiar.TabIndex = 31;
