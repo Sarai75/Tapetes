@@ -58,7 +58,7 @@ namespace Proyecto_transversal
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
 			this.pictureBox1.Location = new System.Drawing.Point(12, 78);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(206, 191);
+			this.pictureBox1.Size = new System.Drawing.Size(233, 222);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
 			this.pictureBox1.TabIndex = 3;
 			this.pictureBox1.TabStop = false;
@@ -66,19 +66,17 @@ namespace Proyecto_transversal
 			// label2
 			// 
 			this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(224, 88);
+			this.label2.Location = new System.Drawing.Point(251, 95);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(301, 172);
+			this.label2.Size = new System.Drawing.Size(301, 189);
 			this.label2.TabIndex = 4;
-			this.label2.Text = "POR CADA METRO CUADRADO 20 KILOS DE ASERRIN: $15.\r\nLITRO DE PINTURA: $100.\r\nKG FR" +
-			"UTOS SECOS: $80.\r\nDOCENA DE FLORES: $50.\r\nLITRO DE AGUA: $25.\r\nTORTAS: $30.\r\nMET" +
-			"RO DE TAPETE: $20.";
+			this.label2.Text = resources.GetString("label2.Text");
 			// 
 			// btnsiguiente
 			// 
 			this.btnsiguiente.BackColor = System.Drawing.Color.Silver;
 			this.btnsiguiente.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnsiguiente.Location = new System.Drawing.Point(339, 300);
+			this.btnsiguiente.Location = new System.Drawing.Point(402, 362);
 			this.btnsiguiente.Name = "btnsiguiente";
 			this.btnsiguiente.Size = new System.Drawing.Size(186, 28);
 			this.btnsiguiente.TabIndex = 5;
@@ -91,7 +89,7 @@ namespace Proyecto_transversal
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-			this.ClientSize = new System.Drawing.Size(537, 350);
+			this.ClientSize = new System.Drawing.Size(600, 402);
 			this.Controls.Add(this.btnsiguiente);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.pictureBox1);
