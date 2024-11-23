@@ -70,7 +70,9 @@ namespace Proyecto_transversal
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(301, 189);
 			this.label2.TabIndex = 4;
-			this.label2.Text = resources.GetString("label2.Text");
+			this.label2.Text = "POR CADA METRO CUADRADO 20 KILOS DE ASERRIN: $15.\r\nLITRO DE PINTURA: $100.\r\nKG FR" +
+			"UTOS SECOS: $80.\r\nDOCENA DE FLORES: $50.\r\nLITRO DE AGUA: $25.\r\nTORTAS: $30.\r\nMET" +
+			"RO DE TAPETE: $20.\r\nTRABAJADORES: $50.";
 			// 
 			// btnsiguiente
 			// 
