@@ -30,7 +30,7 @@ namespace Proyecto_transversal
 		public int flores;
 		public int torta;
 		public int resultrabajadores;
-		public int  metrostrabajadores;
+		public int metrostrabajadores;
 		public int trabajadores;
 		
 		public Form2()
@@ -108,10 +108,12 @@ namespace Proyecto_transversal
 			metrosc=ancho*largo;
 			metroaserrin=metrosc*20;
 			resultadoaserrin=metroaserrin*15;
+			metrostrabajadores=metrosc*20;
+			resultrabajadores=metrostrabajadores*20;
 			resultrabajadores=int.Parse(lbltrabajadores.Text);
-			metrostrabajadores=resultrabajadores*metroaserrin;
+			resultrabajadores=resultrabajadores*metrostrabajadores;
 			
-			Form3 huhu =new Form3(agua, pintura, frutossecos, metrosc, metroaserrin,resultadoaserrin, flores, torta, trabajadores);
+			Form3 huhu =new Form3(agua, pintura, frutossecos, metrosc, metroaserrin, resultadoaserrin, flores, torta, trabajadores, resultrabajadores);
 			this.Hide();
 			huhu.ShowDialog();
 			this.Close();
