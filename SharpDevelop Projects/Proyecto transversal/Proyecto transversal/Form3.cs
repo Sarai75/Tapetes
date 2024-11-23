@@ -51,6 +51,7 @@ namespace Proyecto_transversal
 		
 		void BtncalcularClick(object sender, EventArgs e)
 		{
+			
 			botella=botella*25;
 			lblagua.Text=botella.ToString();
 			
@@ -70,9 +71,10 @@ namespace Proyecto_transversal
 			tortaa=tortaa*30;
 			lbltorta.Text=tortaa.ToString();
 			
+			resutrabajador=resutrabajador*50;
 			lbltrabajadores.Text=resutrabajador.ToString();
 			
-			int resuu=botella+pinturaa+frutos+metrossaserrin+resulaserrin+floress+tortaa;
+			int resuu=botella+pinturaa+frutos+metrossaserrin+resulaserrin+floress+tortaa+resutrabajador;
 			lblresul.Text=resuu.ToString();
 		}
 		
